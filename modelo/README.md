@@ -42,7 +42,7 @@ Em diferença pareada, o adaptador empata com o 9B no F1 macro da nota (+0,001, 
 
 ## Como usar
 
-Só no MLX (Mac com Apple Silicon). O prompt precisa ser o mesmo do treino:
+Só no MLX (Mac com Apple Silicon). Este repositório tem só o adaptador, então o modelo base é carregado à parte; o exemplo automático do botão "Use this model", que carrega este repositório sozinho, não funciona. O prompt precisa ser o mesmo do treino:
 
 ```python
 from huggingface_hub import snapshot_download
