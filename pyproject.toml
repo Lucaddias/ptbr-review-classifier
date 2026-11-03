@@ -1,0 +1,20 @@
+[project]
+name = "ptbr-review-classifier"
+version = "0.1.0"
+description = "LoRA do Qwen3.5-0.8B para ler avaliações de clientes em português e devolver nota e recomendação em JSON."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "mlx-lm==0.32.2",
+    "pyarrow==18.1.0",
+]
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

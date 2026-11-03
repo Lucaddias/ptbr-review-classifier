@@ -1,0 +1,1475 @@
+{
+ "nome": "lora-0.8b-um-por-vez",
+ "modelo": "Qwen/Qwen3.5-0.8B@2fc06364715b967f1860aea9cf38778875588b17",
+ "adaptador": "adaptador",
+ "segundos": 51.9,
+ "exemplos_por_segundo": 3.85,
+ "metricas": {
+  "exemplos": 200,
+  "formato_valido": 1.0,
+  "nota": {
+   "acuracia": 0.605,
+   "f1_macro": 0.5412314244021561,
+   "erro_medio_absoluto": 0.465,
+   "acerto_com_folga_de_1": 0.94,
+   "matriz_de_confusao": [
+    [
+     31,
+     2,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     7,
+     6,
+     2,
+     1,
+     0,
+     0
+    ],
+    [
+     6,
+     2,
+     6,
+     7,
+     2,
+     0
+    ],
+    [
+     1,
+     0,
+     3,
+     20,
+     21,
+     0
+    ],
+    [
+     0,
+     1,
+     1,
+     23,
+     58,
+     0
+    ]
+   ]
+  },
+  "recomenda": {
+   "acuracia": 0.935,
+   "f1_macro": 0.9150076819979732
+  },
+  "intervalos_95": {
+   "nota_f1_macro": [
+    0.45115514664363765,
+    0.6159543473635397
+   ],
+   "recomenda_acuracia": [
+    0.9,
+    0.965
+   ]
+  }
+ },
+ "previsoes": [
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 3,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 1,
+   "recomenda": true,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 1,
+   "recomenda": false,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 3,
+   "recomenda": false,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 1,
+   "recomenda": false,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 1,
+   "recomenda": false,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 2,
+   "recomenda": false,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 3,
+   "recomenda": false,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 3, \"recomenda\": true}",
+   "nota": 3,
+   "recomenda": true,
+   "nota_prevista": 3,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 2, \"recomenda\": false}",
+   "nota": 2,
+   "recomenda": false,
+   "nota_prevista": 2,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 2, \"recomenda\": false}",
+   "nota": 1,
+   "recomenda": false,
+   "nota_prevista": 2,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 3,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 3,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 1,
+   "recomenda": false,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 1,
+   "recomenda": false,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 3,
+   "recomenda": true,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 3,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 1,
+   "recomenda": false,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 3, \"recomenda\": true}",
+   "nota": 3,
+   "recomenda": true,
+   "nota_prevista": 3,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 2,
+   "recomenda": false,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 1,
+   "recomenda": false,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 3,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 1,
+   "recomenda": false,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 2, \"recomenda\": false}",
+   "nota": 2,
+   "recomenda": false,
+   "nota_prevista": 2,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 3,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 3,
+   "recomenda": true,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 1,
+   "recomenda": false,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 1,
+   "recomenda": false,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 3, \"recomenda\": true}",
+   "nota": 3,
+   "recomenda": true,
+   "nota_prevista": 3,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 2,
+   "recomenda": false,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 1,
+   "recomenda": false,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 1,
+   "recomenda": false,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 1,
+   "recomenda": true,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 1,
+   "recomenda": false,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 3, \"recomenda\": true}",
+   "nota": 3,
+   "recomenda": true,
+   "nota_prevista": 3,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 1,
+   "recomenda": false,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 3, \"recomenda\": true}",
+   "nota": 2,
+   "recomenda": false,
+   "nota_prevista": 3,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 3,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 2,
+   "recomenda": false,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 2, \"recomenda\": false}",
+   "nota": 2,
+   "recomenda": false,
+   "nota_prevista": 2,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 3,
+   "recomenda": true,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 1,
+   "recomenda": false,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 3, \"recomenda\": true}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 3,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 2, \"recomenda\": false}",
+   "nota": 2,
+   "recomenda": false,
+   "nota_prevista": 2,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 3, \"recomenda\": true}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 3,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 3,
+   "recomenda": true,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 2, \"recomenda\": false}",
+   "nota": 1,
+   "recomenda": false,
+   "nota_prevista": 2,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 1,
+   "recomenda": false,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 1,
+   "recomenda": false,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 1,
+   "recomenda": false,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 3,
+   "recomenda": true,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 2, \"recomenda\": false}",
+   "nota": 2,
+   "recomenda": false,
+   "nota_prevista": 2,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 3, \"recomenda\": true}",
+   "nota": 3,
+   "recomenda": true,
+   "nota_prevista": 3,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 3, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 3,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 3, \"recomenda\": true}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 3,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 3, \"recomenda\": true}",
+   "nota": 3,
+   "recomenda": true,
+   "nota_prevista": 3,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 2, \"recomenda\": false}",
+   "nota": 3,
+   "recomenda": true,
+   "nota_prevista": 2,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 1,
+   "recomenda": false,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 1,
+   "recomenda": false,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 1,
+   "recomenda": false,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 3, \"recomenda\": true}",
+   "nota": 2,
+   "recomenda": true,
+   "nota_prevista": 3,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 2,
+   "recomenda": false,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 2,
+   "recomenda": false,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 2, \"recomenda\": false}",
+   "nota": 3,
+   "recomenda": true,
+   "nota_prevista": 2,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 2,
+   "recomenda": false,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 1,
+   "recomenda": false,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 1,
+   "recomenda": false,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 3,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 1,
+   "recomenda": false,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 2,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 2, \"recomenda\": false}",
+   "nota": 5,
+   "recomenda": false,
+   "nota_prevista": 2,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 1,
+   "recomenda": false,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 1,
+   "recomenda": false,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 1,
+   "recomenda": false,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 1,
+   "recomenda": false,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 5, \"recomenda\": true}",
+   "nota": 5,
+   "recomenda": true,
+   "nota_prevista": 5,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 4, \"recomenda\": true}",
+   "nota": 4,
+   "recomenda": true,
+   "nota_prevista": 4,
+   "recomenda_prevista": true
+  },
+  {
+   "saida": "{\"nota\": 2, \"recomenda\": false}",
+   "nota": 2,
+   "recomenda": false,
+   "nota_prevista": 2,
+   "recomenda_prevista": false
+  },
+  {
+   "saida": "{\"nota\": 1, \"recomenda\": false}",
+   "nota": 1,
+   "recomenda": true,
+   "nota_prevista": 1,
+   "recomenda_prevista": false
+  }
+ ]
+}

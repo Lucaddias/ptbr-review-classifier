@@ -1,0 +1,65 @@
+{
+  "fonte": "https://huggingface.co/datasets/ruanchaves/b2w-reviews01/resolve/c95a67fea418ab885cc673055cb46d4b7bdd47fa/default/train/0000.parquet",
+  "sha256": "4fdba9269b3a75efc9a59beb0ac00914e7205d6d1190a56a0bdfbacfbc3b6947",
+  "semente": 20261103,
+  "linhas_originais": 132373,
+  "descartes": {
+    "sem texto": 3275,
+    "texto repetido": 2384,
+    "sem recomendação": 18
+  },
+  "linhas_limpas": 126696,
+  "partes": {
+    "treino": {
+      "arquivo": "train.jsonl",
+      "pool": 101081,
+      "produtos_no_pool": 37036,
+      "amostra": 4000,
+      "notas": {
+        "1": 772,
+        "2": 233,
+        "3": 517,
+        "4": 1026,
+        "5": 1452
+      },
+      "recomenda": {
+        "não": 1026,
+        "sim": 2974
+      }
+    },
+    "validacao": {
+      "arquivo": "valid.jsonl",
+      "pool": 11782,
+      "produtos_no_pool": 4657,
+      "amostra": 400,
+      "notas": {
+        "1": 82,
+        "2": 25,
+        "3": 52,
+        "4": 86,
+        "5": 155
+      },
+      "recomenda": {
+        "sim": 297,
+        "não": 103
+      }
+    },
+    "teste": {
+      "arquivo": "test.jsonl",
+      "pool": 13833,
+      "produtos_no_pool": 4717,
+      "amostra": 1000,
+      "notas": {
+        "1": 180,
+        "2": 62,
+        "3": 131,
+        "4": 224,
+        "5": 403
+      },
+      "recomenda": {
+        "sim": 764,
+        "não": 236
+      }
+    }
+  }
+}

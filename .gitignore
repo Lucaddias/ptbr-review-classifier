@@ -1,0 +1,11 @@
+# Dados brutos: baixados por `python -m avaliacoes.preparar` com SHA-256 conferido.
+dados/brutos/
+
+# O adaptador treinado vai para o Hugging Face, não para o Git.
+adaptador/
+
+.venv/
+__pycache__/
+.pytest_cache/
+.DS_Store
+

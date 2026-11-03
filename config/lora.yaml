@@ -1,0 +1,45 @@
+# Treino do adaptador com o mlx-lm, via `uv run python -m avaliacoes.treinar`,
+# que fixa a revisão do Qwen3.5-0.8B no Hugging Face.
+train: true
+data: dados
+adapter_path: adaptador
+seed: 0
+
+fine_tune_type: lora
+# Só as 8 camadas de cima (6 de atenção linear e 2 de atenção completa). As
+# 16 de baixo ficam congeladas e em modo de avaliação, com o kernel Metal da
+# atenção linear; com LoRA nas 24, o treino rodava a 0,13 lote/s com 12 GB
+# de pico, contra ~0,4 lote/s aqui. Detalhes em avaliacoes/treinar.py.
+num_layers: 8
+lora_parameters:
+  rank: 16
+  scale: 20.0
+  dropout: 0.05
+
+# A perda só conta os tokens da resposta, não o prompt que se repete.
+mask_prompt: true
+max_seq_length: 512
+
+# Lote efetivo de 8 em dois lotes de 4. O laço da atenção linear guarda o
+# estado de cada token para o backward, e lotes de 8 (ou de 4 sem checkpoint
+# de gradiente) estouram a memória da GPU num Mac de 24 GB.
+batch_size: 4
+grad_accumulation_steps: 2
+grad_checkpoint: true
+# 1.000 lotes de 4 = 500 atualizações de 8: uma passada pelos 4.000 de treino.
+iters: 1000
+learning_rate: 1.0e-4
+lr_schedule:
+  name: cosine_decay
+  # Contados em atualizações do otimizador, não em lotes.
+  warmup: 25
+  warmup_init: 1.0e-6
+  arguments: [1.0e-4, 475, 1.0e-6]
+optimizer: adamw
+
+# Estes três contam lotes de 4.
+steps_per_report: 25
+steps_per_eval: 100
+# -1 = a validação inteira (400 exemplos) a cada avaliação.
+val_batches: -1
+save_every: 100
