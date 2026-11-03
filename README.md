@@ -12,7 +12,7 @@ O treino roda num Mac com [mlx-lm](https://github.com/ml-explore/mlx-lm), sobre 
 
 Na nota, empata com o Qwen3.5-9B. Na recomendação, passa. E, no mesmo Mac, responde quase quatro vezes mais rápido.
 
-O adaptador está no Hugging Face: [oluca/qwen3.5-0.8b-ptbr-reviews-lora](https://huggingface.co/oluca/qwen3.5-0.8b-ptbr-reviews-lora), com o exemplo de uso no model card. A história do projeto, com o que deu errado no caminho, está no artigo: [português](artigo/pt.md) · [English](artigo/en.md).
+O adaptador está no Hugging Face: [oluca/qwen3.5-0.8b-ptbr-reviews-lora](https://huggingface.co/oluca/qwen3.5-0.8b-ptbr-reviews-lora), com o exemplo de uso no model card. A história do projeto, com o que deu errado no caminho, está no artigo: [português, no Medium](https://medium.com/@lucadiasferreira/ajustei-um-modelo-de-0-8b-e-ele-empatou-com-um-de-9b-veja-como-medi-6bf09b57f9fd) · [English](artigo/en.md).
 
 ## Resultados
 

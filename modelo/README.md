@@ -26,7 +26,7 @@ Avaliação: Chegou com a tela trincada e o suporte não responde.
 → {"nota": 1, "recomenda": false}
 ```
 
-Código, dados e método: [github.com/Lucaddias/ptbr-review-classifier](https://github.com/Lucaddias/ptbr-review-classifier). Artigo sobre o projeto: [português](https://github.com/Lucaddias/ptbr-review-classifier/blob/main/artigo/pt.md) · [English](https://github.com/Lucaddias/ptbr-review-classifier/blob/main/artigo/en.md).
+Código, dados e método: [github.com/Lucaddias/ptbr-review-classifier](https://github.com/Lucaddias/ptbr-review-classifier). Artigo sobre o projeto: [português, no Medium](https://medium.com/@lucadiasferreira/ajustei-um-modelo-de-0-8b-e-ele-empatou-com-um-de-9b-veja-como-medi-6bf09b57f9fd) · [English](https://github.com/Lucaddias/ptbr-review-classifier/blob/main/artigo/en.md).
 
 ## Resultados
 
